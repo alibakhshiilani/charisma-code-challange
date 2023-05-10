@@ -38,7 +38,7 @@ const MainLayout = () => {
     <div className={classes.root}>
       <AppBar position="fixed">
         <Toolbar>
-          <Typography variant="h6">Tag List</Typography>
+          <Typography variant="h6">Charisma</Typography>
           <ul className={classes.menu}>
             <li className={classes.menuItem}>
               <Link to="/" className={classes.menuLink}>
