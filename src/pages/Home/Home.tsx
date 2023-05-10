@@ -118,7 +118,7 @@ const Home: React.FC<LinkProps> = ({
           </Typography>
 
           <TextField
-            label="Search Tags"
+            label="Search Products"
             value={searchQuery}
             onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
               setSearchQuery(e.target.value)
